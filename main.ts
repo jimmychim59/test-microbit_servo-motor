@@ -1,0 +1,23 @@
+input.onButtonPressed(Button.A, function () {
+    pins.servoWritePin(AnalogPin.P0, 45)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P0, 135)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P0, 90)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P1, 45)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P1, 135)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P1, 90)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P2, 45)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P2, 135)
+    basic.pause(1000)
+    pins.servoWritePin(AnalogPin.P2, 90)
+    basic.pause(1000)
+})
+basic.forever(function () {
+	
+})
